@@ -1,0 +1,45 @@
+<h2 class="page-header">Documents Details</h2>
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+
+<form method="post" action="/users/documents">
+     <h3>Driving licence details:</h3>
+  <div class="form-group">
+    <label>Driving licence number</label>
+    <input type="text" class="form-control" name="drivingLicenceNumber" placeholder="licence number please">
+  </div>
+  <div class="form-group">
+    <label>name on licence</label>
+    <input type="text" class="form-control" name="drivingLicenceName" placeholder="your name on licence">
+  </div>
+  <div class="form-group">
+    <label>vehicle name</label>
+    <input type="text" class="form-control" name="vehicle" placeholder="your vehicle name">
+  </div>
+  <div class="form-group">
+    <label>dob on licence</label>
+    <input type="text" class="form-control" name="drivingLicenceDOB" placeholder="your dob in any format">
+  </div>
+  <div class="form-group">
+    <label>vehicle category</label>
+    <input type="text" class="form-control" name="drivingCategory" placeholder="your vehicle category">
+  </div>
+
+  <h3>Aadhar Card Details:</h3>
+  <div class="form-group">
+    <label>name on aadhar card</label>
+    <input type="text" class="form-control" name="aadharName" placeholder="your name on aadhar">
+  </div>
+  <div class="form-group">
+    <label>aadhar card number</label>
+    <input type="text" class="form-control" name="aadharNumber" placeholder="your aadhar number">
+  </div>
+  <div class="form-group">
+    <label>dob on aadhar</label>
+    <input type="text" class="form-control" name="aadharCardDOB" placeholder="your dob in anyformat">
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
