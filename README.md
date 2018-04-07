@@ -1,2 +1,2 @@
-#DEMO OF THE WORKING APP
-![SCREENSHOT OF THE WORKING APP](screenshots/Screenshot (42).png)
+# DEMO OF THE WORKING APP
+! [SCREENSHOT OF THE WORKING APP](screenshots/Screenshot (42).png)
